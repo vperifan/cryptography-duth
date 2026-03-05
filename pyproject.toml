@@ -1,0 +1,12 @@
+[project]
+name = "crypto-duth"
+version = "0.0.1"
+description = "Companion material for the DUTH course on cryptography"
+authors = [
+    { name = "Vasilis Perifanis", email = "vperifan@ee.duth.gr" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "notebook>=7.5.4",
+    "pycryptodome>=3.23.0",
+]

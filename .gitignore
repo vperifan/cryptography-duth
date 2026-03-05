@@ -1,0 +1,14 @@
+venv/
+.idea/
+__pycache__/
+*.egg-info/
+
+# environment variables
+.env
+
+# build and distribution folders
+build/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
