@@ -19,6 +19,7 @@ All notebooks are located in the `notebooks/` directory.
 - `02.BlockCiphers.ipynb`: Overview of block ciphers, including AES.
 - `03.MathBackground.ipynb`: Mathematical foundations for cryptography, including modular arithmetic, modular inverse, Euler's totient function, the Extended Euclidean Algorithm and the Chinese Remainder Theorem.
 - `04.RSA-Diffie-Hellman.ipynb`: Implementation of RSA and Diffie-Hellman key exchange algorithms.
+- `05.Hash-Functions.ipynb`: Introduction to hash functions and their applications in cryptography.
 
 ## Running the Notebooks
 You can run the notebooks either locally or using a cloud-based Jupyter environment.
