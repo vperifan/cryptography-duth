@@ -270,6 +270,7 @@ dependencies = [
     { name = "cryptography" },
     { name = "notebook" },
     { name = "pycryptodome" },
+    { name = "shamirs" },
 ]
 
 [package.metadata]
@@ -277,6 +278,7 @@ requires-dist = [
     { name = "cryptography", specifier = ">=46.0.5" },
     { name = "notebook", specifier = ">=7.5.4" },
     { name = "pycryptodome", specifier = ">=3.23.0" },
+    { name = "shamirs", specifier = ">=4.0.0" },
 ]
 
 [[package]]
@@ -742,6 +744,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/d6/2c/90153f189e421e93c4bb4f9e3f59802a1f01abd2ac5cf40b152d7f735232/jupyterlab_server-2.28.0.tar.gz", hash = "sha256:35baa81898b15f93573e2deca50d11ac0ae407ebb688299d3a5213265033712c", size = 76996, upload-time = "2025-10-22T13:59:18.37Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e0/07/a000fe835f76b7e1143242ab1122e6362ef1c03f23f83a045c38859c2ae0/jupyterlab_server-2.28.0-py3-none-any.whl", hash = "sha256:e4355b148fdcf34d312bbbc80f22467d6d20460e8b8736bf235577dd18506968", size = 59830, upload-time = "2025-10-22T13:59:16.767Z" },
+]
+
+[[package]]
+name = "lagrange"
+version = "4.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/b8/cc2b22ce0bb0672e102709a485272b18c1b6e895f2aae4214751ba2e0553/lagrange-4.0.1.tar.gz", hash = "sha256:2066c004238802a17f7bd1377453c09942e3dcfe723e2b8abd32ec6e7b914b8f", size = 6727, upload-time = "2025-10-16T02:19:03.186Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1f/e5/3c19721faa639564e64e431bca91794eac42fd24573d8eb480bbd2dfadcb/lagrange-4.0.1-py3-none-any.whl", hash = "sha256:de8bdeb243f4da4a8366f85fdabd1ff9df99564eb8e45f0bd43828395a01f1e9", size = 6905, upload-time = "2025-10-16T02:19:01.792Z" },
 ]
 
 [[package]]
@@ -1340,6 +1351,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/82/f3/748f4d6f65d1756b9ae577f329c951cda23fb900e4de9f70900ced962085/setuptools-82.0.0.tar.gz", hash = "sha256:22e0a2d69474c6ae4feb01951cb69d515ed23728cf96d05513d36e42b62b37cb", size = 1144893, upload-time = "2026-02-08T15:08:40.206Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e1/c6/76dc613121b793286a3f91621d7b75a2b493e0390ddca50f11993eadf192/setuptools-82.0.0-py3-none-any.whl", hash = "sha256:70b18734b607bd1da571d097d236cfcfacaf01de45717d59e6e04b96877532e0", size = 1003468, upload-time = "2026-02-08T15:08:38.723Z" },
+]
+
+[[package]]
+name = "shamirs"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lagrange" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/f1/8fda8781ea232bba3129b7ebe48097a15c4150e6179f527bca0ea77d713a/shamirs-4.0.0.tar.gz", hash = "sha256:5fa88c73f57b936fdbe59858206a7d2576873ac30a9a81e1f381204707a30534", size = 18189, upload-time = "2025-10-19T01:42:42.559Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/97/bb/4a3d143d246e01d58922d56d95fbb76006dce5734acdcc5a24efe5126954/shamirs-4.0.0-py3-none-any.whl", hash = "sha256:72c441eaef15fbb360b3404f9574b8e5c0c4c7aa4665efae25a9eb2d39f845a1", size = 15030, upload-time = "2025-10-19T01:42:40.745Z" },
 ]
 
 [[package]]
